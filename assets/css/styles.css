@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+	--bs-blue: #87CEEB;
+	--bs-gray: #D3D3D3;
+	--bs-black: #1E1E1E;
+}
+
+.nav-color {
+	background-color: var(--bs-black);
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.card-img {
+	height: 33vh;
+}
+
+.btn {
+	background-color: var(--bs-blue);
+}
+
+.absol {
+	text-align: center;
+	align-content: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 6em;
+	height: 8em;
+	border-radius: 0.5em;
+	position: absolute;
+	top: 5em;
+	left: 10%;
+}
