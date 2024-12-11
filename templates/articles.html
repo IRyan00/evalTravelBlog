@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+	<script src="https://kit.fontawesome.com/06aa891b7b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<title>A propos</title>
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header class="sticky-top">
+		<nav class="navbar nav-color">
+			<div class="container-fluid px-4">
+				<a class="navbar-brand" href="#">
+					<img src="/assets/images/201623.png" alt="Logo" width="50" height="50"
+						class="d-inline-block align-text-top">
+				</a>
+				<div class="d-flex gap-5 fw-bold">
+					<a class="nav-link text-white" href="/index.html">Accueil</a>
+					<a class="nav-link text-white" href="#">Voyages</a>
+					<a class="nav-link text-white" href="/templates/about.html">À propos</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- FIN DU HEADER -->
+
+	<!-- CONTENU -->
+	<main>
+		<h1 class="h1 text-center py-5 fw-bold">Tous mes voyages</h1>
+
+		<section id="allArticles"></section>
+	</main>
+	<!-- FIN DU CONTENU -->
+
+
+	<!-- FOOTER -->
+	<footer class="nav-color text-white py-3">
+		<div class="container d-flex justify-content-between align-items-center">
+			<!-- Logo à gauche -->
+			<div class="logo">
+				<img src="/assets/images/201623.png" alt="Logo" width="70" class="img-fluid">
+			</div>
+			<!-- Liste d'éléments à droite -->
+			<ul class="list-unstyled d-flex align-items-center m-0 col-9">
+				<li class="ms-2 col-4"><a href="#" class="text-white text-decoration-none fs-5">Copyright</a></li>
+				<li class="ms-3 col-2"><a href="#" class="text-white text-decoration-none"><i
+							class="fa-brands fa-x-twitter fa-2xl" style="color: #ffffff;"></i></a></li>
+				<li class="ms-3 col-2"><a href="#" class="text-white text-decoration-none"><i
+							class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a></li>
+				<li class="ms-3 col-2"><a href="#" class="text-white text-decoration-none"><i
+							class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+	<!-- FIN DU FOOTER -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+
+	<script src="/assets/js/articles.js"></script>
+</body>
+
+</html>
