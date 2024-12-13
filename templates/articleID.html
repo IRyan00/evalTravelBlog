@@ -13,8 +13,8 @@
 		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 		crossorigin=""></script>
 	<script src="https://kit.fontawesome.com/06aa891b7b.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="./assets/css/styles.css">
-	<title>Accueil</title>
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<title>Mes voyages</title>
 </head>
 
 <body class="darkmode">
@@ -23,13 +23,13 @@
 		<nav class="navbar nav-color">
 			<div class="container-fluid px-4">
 				<a class="navbar-brand" href="#">
-					<img src="./assets/images/201623.png" alt="Logo" width="50" height="50"
+					<img src="../assets/images/201623.png" alt="Logo" width="50" height="50"
 						class="d-inline-block align-text-top">
 				</a>
 				<div class="d-flex gap-3 gap-sm-5 fw-bold">
-					<a class="nav-link text-white" href="#">Accueil</a>
-					<a class="nav-link text-white" href="./templates/articles.html">Voyages</a>
-					<a class="nav-link text-white" href="./templates/about.html">À propos</a>
+					<a class="nav-link text-white" href="/index.html">Accueil</a>
+					<a class="nav-link text-white" href="#">Voyages</a>
+					<a class="nav-link text-white" href="/templates/about.html">À propos</a>
 				</div>
 			</div>
 		</nav>
@@ -38,61 +38,30 @@
 
 	<!-- CONTENU -->
 	<main>
-		<div>
-			<!-- DARKMODE -->
-			<div class="dark-mode">
-				<input type="checkbox" class='checkbox' id='checkbox'>
-				<label for="checkbox" class='label'>
-					<div class="ball"></div>
-				</label>
-			</div>
-			<!-- FIN DU DARKMODE -->
-
-			<!-- HEROS -->
-			<div class="heros">
-				<img src="./assets/images/hero.jpg" alt="" class="heros img-fluid">
-
-				<div class="absol fw-bold">Mes<br>voyages</div>
-			</div>
-			<!-- FIN DU HEROS -->
+		<!-- DARKMODE -->
+		<div class="dark-mode">
+			<input type="checkbox" class='checkbox' id='checkbox'>
+			<label for="checkbox" class='label'>
+				<div class="ball"></div>
+			</label>
 		</div>
+		<!-- FIN DU DARKMODE -->
 
-		<!-- DERNIER VOYAGE -->
-		<h2 class="h1 text-center py-5 fw-bold">Mon dernier voyage</h2>
+		<!-- TOUS LES ARTICLES -->
+		<h1 class="h1 text-center py-5 fw-bold">A propos de ce voyage</h1>
 
-		<section>
-			<div class="card mx-auto" style="width: 20rem;">
-				<img src="./assets/images/paris.jpg" class="card-img-top card-img" alt="image de la tour Eiffel">
-				<div class="card-body">
-					<h5 class="card-title text-center fw-bold">Paris</h5>
-					<p class="card-text text-justify">"Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Inventore cumque beatae ipsum aspernatur excepturi totam exercitationem incidunt blanditiis quis
-						laboriosam veniam at, qui alias enim, fugiat consequuntur aut adipisci aliquid quas omnis
-						repell..."</p>
-					<div class="d-flex justify-content-center">
-						<a href="#" class="btn">Voir l'article</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- FIN DERNIER VOYAGE -->
-
-		<hr class="text-black col-6 mx-auto my-5">
-
-		<!-- MAP -->
-		<h2 class="h1 text-center pb-5 fw-bold">Tous mes voyages</h2>
-
-		<div id="map" class="z-0" style="height: 75vh;"></div>
-		<!-- FIN MAP -->
+		<section id="articleID"></section>
+		<!-- FIN DE TOUS LES ARTICLES -->
 	</main>
 	<!-- FIN DU CONTENU -->
+
 
 	<!-- FOOTER -->
 	<footer class="nav-color text-white py-3">
 		<div class="container d-flex justify-content-between align-items-center">
 
 			<div class="logo">
-				<img src="/assets/images/201623.png" alt="Logo" width="70" class="img-fluid">
+				<img src="../assets/images/201623.png" alt="Logo" width="70" class="img-fluid">
 			</div>
 
 			<ul class="list-unstyled d-flex align-items-center text-center justify-content-center m-0 col-9">
@@ -106,12 +75,13 @@
 			</ul>
 		</div>
 	</footer>
+	<!-- FIN DU FOOTER -->
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
 
-	<script src="./assets/js/app.js"></script>
+	<script src="/assets/js/articleID.js"></script>
 </body>
 
 </html>
