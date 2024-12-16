@@ -7,11 +7,11 @@ const articles = [
 	{ id: "6", img: '../assets/images/almaty.jpg', title: 'Almaty, Kazakhstan', desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque beatae ipsum aspernatur excepturi totam exercitationem incidunt blanditiis quis laboriosam veniam at, qui alias enim, fugiat consequuntur aut adipisci aliquid quas omnis repellendus mollitia et ratione. Quos error laborum repudiandae consequatur repellat autem nihil neque voluptatum provident rem cupiditate reiciendis, quam iste ipsum incidunt porro ullam? Quas eveniet repudiandae sapiente necessitatibus. Unde reprehenderit nemo, explicabo possimus incidunt soluta veritatis! Earum suscipit sunt iusto aliquid rerum placeat nobis perspiciatis consequatur, eum quaerat cum accusamus alias nisi beatae quae in reiciendis quod facere necessitatibus ipsam sapiente. Eligendi aut cum iusto nam veniam?', desc2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque beatae ipsum aspernatur excepturi totam exercitationem incidunt blanditiis quis laboriosam veniam at, qui alias enim, fugiat consequuntur aut adipisci aliquid quas omnis repellendus mollitia et ratione. Quos error laborum repudiandae consequatur repellat autem nihil neque voluptatum provident rem cupiditate reiciendis, quam iste ipsum incidunt porro ullam? Quas eveniet repudiandae sapiente necessitatibus. Unde reprehenderit nemo, explicabo possimus incidunt soluta veritatis! Earum suscipit sunt iusto aliquid rerum placeat nobis perspiciatis consequatur, eum quaerat cum accusamus alias nisi beatae quae in reiciendis quod facere necessitatibus ipsam sapiente. Eligendi aut cum iusto nam veniam?" },
 ];
 
+
 function getIdFromUrl() {
 	const params = new URLSearchParams(window.location.search);
 	return params.get("id");
 }
-
 
 function displayContent() {
 	const id = getIdFromUrl();
