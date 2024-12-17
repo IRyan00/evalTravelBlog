@@ -15,4 +15,6 @@ Trello : https://trello.com/invite/b/67581bcc6c6fc860f0acc2dc/ATTI3d5b9250de2a07
 
 Maquette figma : https://www.figma.com/design/V8QhVmts8MmpqBTRlSQw4X/Travel-blog?node-id=310-209&t=gefe9zc9GCjTqgpj-1
 
+Vercel : https://eval-travel-blog-f9ptz2nvj-ryans-projects-30135a47.vercel.app/index.html
+
 Git pages https://iryan00.github.io/evalTravelBlog/ (problème de chemin)
